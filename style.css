@@ -100,8 +100,8 @@ button {
 }
 
 button:hover {
-	transition: all ease-in-out 0.3s;
-	box-shadow: 4px 3px 16px rgb(194, 191, 191);
+	transition: ease-in-out .3s;
+	opacity: 0.8;
 }
 
 .card:nth-of-type(1) {
