@@ -20,6 +20,7 @@ body {
 	padding: 20px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
+	border-radius: 5px;
 }
 
 .card:nth-of-type(1) h3 {
@@ -33,7 +34,7 @@ body {
 	font-size: 14px;
 }
 .card {
-	box-shadow: 2px 3px 16px rgb(117, 117, 209);
+	box-shadow: 2px 3px 16px rgb(55, 55, 59);
 }
 
 .card:nth-of-type(3) p {
@@ -119,6 +120,7 @@ button:hover {
 	.main-container {
 		grid-template-columns: 1fr;
 		width: 80%;
+		border-radius: none;
 	}
 
 	.card:nth-of-type(1) {
@@ -145,6 +147,10 @@ button:hover {
 	.card:nth-of-type(2),
 	.card:nth-of-type(3) {
 		height: 270px;
+	}
+
+	.main-container{
+		border-radius: none;
 	}
 
 	.card:nth-of-type(3) p {
